@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ad3cf8a6-ef05-4543-8dac-8372e03c45a9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/devfoundry/testing/Order.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pl/devfoundry/testing/OrderTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pl/devfoundry/testing/MealTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pl/devfoundry/testing/MealTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -106,8 +103,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/pl/devfoundry/testing/OrderTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="392">
-              <caret line="89" column="35" selection-start-line="89" selection-start-column="35" selection-end-line="89" selection-end-column="35" />
+            <state relative-caret-position="375">
+              <caret line="95" column="34" selection-start-line="95" selection-start-column="34" selection-end-line="95" selection-end-column="34" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -374,7 +371,7 @@
       <workItem from="1563531466307" duration="597000" />
       <workItem from="1563532081562" duration="380000" />
       <workItem from="1563532497571" duration="3736000" />
-      <workItem from="1563876126888" duration="6811000" />
+      <workItem from="1563876126888" duration="7102000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1563284909751</created>
@@ -411,13 +408,17 @@
       <option name="project" value="LOCAL" />
       <updated>1563880939245</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Tests to Collectiions&#10;pl: testy do testowania kolekcji">
+      <created>1563966784925</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1563966784925</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="AccountTest_defaultDeliveryAddressShouldNotBeNullAfterBeingSet - 2019.07.23 at 12h 54m 25s.xml">
-      <configuration name="AccountTest.defaultDeliveryAddressShouldNotBeNullAfterBeingSet" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="AccountTest_defaultDeliveryAddressShouldNotBeNullAfterBeingSet - 2019.07.23 at 12h 56m 59s.xml">
       <configuration name="AccountTest.defaultDeliveryAddressShouldNotBeNullAfterBeingSet" configurationId="JUnit" />
     </history-entry>
@@ -445,9 +446,12 @@
     <history-entry file="OrderTest_addinMealtoOrderShouldincreaseOrderSize - 2019.07.24 at 12h 59m 47s.xml">
       <configuration name="OrderTest.addinMealtoOrderShouldincreaseOrderSize" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="OrderTest_testIfTwoMealListAreTheSame - 2019.07.24 at 13h 11m 57s.xml">
+      <configuration name="OrderTest.testIfTwoMealListAreTheSame" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18657000" />
+    <option name="totallyTimeSpent" value="18948000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -543,7 +547,9 @@
     <MESSAGE value="dependencies" />
     <MESSAGE value="Tests 1" />
     <MESSAGE value="Tests assertTo plus dependencies" />
-    <option name="LAST_COMMIT_MESSAGE" value="Tests assertTo plus dependencies" />
+    <MESSAGE value="Tests yo Collectiions&#10;pl: testy do testowania kolekcji" />
+    <MESSAGE value="Tests to Collectiions&#10;pl: testy do testowania kolekcji" />
+    <option name="LAST_COMMIT_MESSAGE" value="Tests to Collectiions&#10;pl: testy do testowania kolekcji" />
   </component>
   <component name="editorHistoryManager">
     <entry file="jar://$MAVEN_REPOSITORY$/org/junit/jupiter/junit-jupiter-api/5.0.0/junit-jupiter-api-5.0.0.jar!/org/junit/jupiter/api/Assertions.class">
@@ -639,8 +645,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/pl/devfoundry/testing/OrderTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="392">
-          <caret line="89" column="35" selection-start-line="89" selection-start-column="35" selection-end-line="89" selection-end-column="35" />
+        <state relative-caret-position="375">
+          <caret line="95" column="34" selection-start-line="95" selection-start-column="34" selection-end-line="95" selection-end-column="34" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
