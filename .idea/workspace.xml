@@ -2,14 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ad3cf8a6-ef05-4543-8dac-8372e03c45a9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/devfoundry/testing/Address.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/devfoundry/testing/Meal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pl/devfoundry/testing/MealTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/devfoundry/testing/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pl/devfoundry/testing/OrderTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/testing/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/devfoundry/testing/Account.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pl/devfoundry/testing/AccountTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pl/devfoundry/testing/AccountTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pl/devfoundry/testing/MealTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pl/devfoundry/testing/MealTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -59,22 +55,10 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/pl/devfoundry/testing/AccountTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="22" column="46" selection-start-line="22" selection-start-column="46" selection-end-line="22" selection-end-column="46" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/pl/devfoundry/testing/Meal.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="233">
+            <state relative-caret-position="238">
               <caret line="16" selection-start-line="16" selection-end-line="16" />
               <folding>
                 <element signature="e#766#767#0" expanded="true" />
@@ -85,22 +69,47 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/pl/devfoundry/testing/MealTest.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/pl/devfoundry/testing/AccountTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="14" column="56" selection-start-line="14" selection-start-column="56" selection-end-line="14" selection-end-column="56" />
+            <state relative-caret-position="-221">
+              <caret line="23" column="33" selection-start-line="23" selection-start-column="33" selection-end-line="23" selection-end-column="33" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/junit/jupiter/junit-jupiter-api/5.0.0/junit-jupiter-api-5.0.0-sources.jar!/org/junit/jupiter/api/Assertions.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/pl/devfoundry/testing/MealTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="506">
-              <caret line="479" column="23" selection-start-line="479" selection-start-column="23" selection-end-line="479" selection-end-column="23" />
+            <state relative-caret-position="340">
+              <caret line="44" column="52" lean-forward="true" selection-start-line="44" selection-start-column="52" selection-end-line="44" selection-end-column="52" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pl/devfoundry/testing/Order.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
               <folding>
-                <element signature="e#17819#17820#0" expanded="true" />
-                <element signature="e#17869#17870#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#286#287#0" expanded="true" />
+                <element signature="e#314#315#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/pl/devfoundry/testing/OrderTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="392">
+              <caret line="89" column="35" selection-start-line="89" selection-start-column="35" selection-end-line="89" selection-end-column="35" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -128,9 +137,11 @@
         <option value="$PROJECT_DIR$/src/main/java/pl/devfoundry/testing/Meal.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/devfoundry/testing/Account.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/devfoundry/testing/Address.java" />
-        <option value="$PROJECT_DIR$/src/test/java/pl/devfoundry/testing/MealTest.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/pl/devfoundry/testing/AccountTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/pl/devfoundry/testing/MealTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/devfoundry/testing/Order.java" />
+        <option value="$PROJECT_DIR$/src/test/java/pl/devfoundry/testing/OrderTest.java" />
       </list>
     </option>
   </component>
@@ -208,6 +219,10 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="testing" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="unittestingjava" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -253,40 +268,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.AccountTest.defaultDeliveryAddressShouldNotBeNullAfterBeingSet">
-    <configuration name="AccountTest.defaultDeliveryAddressShouldNotBeNullAfterBeingSet" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="TESTY jednostkowe JUnit Mockito TDD1.1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="pl.devfoundry.testing.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="pl.devfoundry.testing" />
-      <option name="MAIN_CLASS_NAME" value="pl.devfoundry.testing.AccountTest" />
-      <option name="METHOD_NAME" value="defaultDeliveryAddressShouldNotBeNullAfterBeingSet" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AccountTest.newlyCreatedAccountShouldNotHaveDefaultDeliveryAddressSet" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="TESTY jednostkowe JUnit Mockito TDD1.1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="pl.devfoundry.testing.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="pl.devfoundry.testing" />
-      <option name="MAIN_CLASS_NAME" value="pl.devfoundry.testing.AccountTest" />
-      <option name="METHOD_NAME" value="newlyCreatedAccountShouldNotHaveDefaultDeliveryAddressSet" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MealTest.referencesToTheSameObjectShouldBeEquals" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.OrderTest.testIfTwoMealListAreTheSame">
+    <configuration name="MealTest.referencesToTheSameObjectShouldBeNotEquals" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TESTY jednostkowe JUnit Mockito TDD1.1" />
       <extension name="coverage">
         <pattern>
@@ -296,13 +279,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="pl.devfoundry.testing" />
       <option name="MAIN_CLASS_NAME" value="pl.devfoundry.testing.MealTest" />
-      <option name="METHOD_NAME" value="referencesToTheSameObjectShouldBeEquals" />
+      <option name="METHOD_NAME" value="referencesToTheSameObjectShouldBeNotEquals" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MealTest.shouldReturnDicountedPrice" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MealTest.shouldReturnDiscountedPrice" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TESTY jednostkowe JUnit Mockito TDD1.1" />
       <extension name="coverage">
         <pattern>
@@ -312,13 +295,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="pl.devfoundry.testing" />
       <option name="MAIN_CLASS_NAME" value="pl.devfoundry.testing.MealTest" />
-      <option name="METHOD_NAME" value="shouldReturnDicountedPrice" />
+      <option name="METHOD_NAME" value="shouldReturnDiscountedPrice" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MealTest.twoMeatShouldBeEqualsWhenPriceAndNameAerTheSame" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="OrderTest.addinMealtoOrderShouldincreaseOrderSize" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TESTY jednostkowe JUnit Mockito TDD1.1" />
       <extension name="coverage">
         <pattern>
@@ -327,8 +310,40 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="pl.devfoundry.testing" />
-      <option name="MAIN_CLASS_NAME" value="pl.devfoundry.testing.MealTest" />
-      <option name="METHOD_NAME" value="twoMeatShouldBeEqualsWhenPriceAndNameAerTheSame" />
+      <option name="MAIN_CLASS_NAME" value="pl.devfoundry.testing.OrderTest" />
+      <option name="METHOD_NAME" value="addinMealtoOrderShouldincreaseOrderSize" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderTest.testAssertArrayEquals" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TESTY jednostkowe JUnit Mockito TDD1.1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pl.devfoundry.testing.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="pl.devfoundry.testing" />
+      <option name="MAIN_CLASS_NAME" value="pl.devfoundry.testing.OrderTest" />
+      <option name="METHOD_NAME" value="testAssertArrayEquals" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderTest.testIfTwoMealListAreTheSame" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TESTY jednostkowe JUnit Mockito TDD1.1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pl.devfoundry.testing.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="pl.devfoundry.testing" />
+      <option name="MAIN_CLASS_NAME" value="pl.devfoundry.testing.OrderTest" />
+      <option name="METHOD_NAME" value="testIfTwoMealListAreTheSame" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -336,11 +351,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.AccountTest.defaultDeliveryAddressShouldNotBeNullAfterBeingSet" />
-        <item itemvalue="JUnit.AccountTest.newlyCreatedAccountShouldNotHaveDefaultDeliveryAddressSet" />
-        <item itemvalue="JUnit.MealTest.twoMeatShouldBeEqualsWhenPriceAndNameAerTheSame" />
-        <item itemvalue="JUnit.MealTest.referencesToTheSameObjectShouldBeEquals" />
-        <item itemvalue="JUnit.MealTest.shouldReturnDicountedPrice" />
+        <item itemvalue="JUnit.OrderTest.testIfTwoMealListAreTheSame" />
+        <item itemvalue="JUnit.OrderTest.addinMealtoOrderShouldincreaseOrderSize" />
+        <item itemvalue="JUnit.OrderTest.testAssertArrayEquals" />
+        <item itemvalue="JUnit.MealTest.referencesToTheSameObjectShouldBeNotEquals" />
+        <item itemvalue="JUnit.MealTest.shouldReturnDiscountedPrice" />
       </list>
     </recent_temporary>
   </component>
@@ -359,7 +374,7 @@
       <workItem from="1563531466307" duration="597000" />
       <workItem from="1563532081562" duration="380000" />
       <workItem from="1563532497571" duration="3736000" />
-      <workItem from="1563876126888" duration="3004000" />
+      <workItem from="1563876126888" duration="6811000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1563284909751</created>
@@ -389,25 +404,17 @@
       <option name="project" value="LOCAL" />
       <updated>1563296994760</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Tests assertTo plus dependencies">
+      <created>1563880939245</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1563880939245</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="MealTest_referencesToTheSameObjectShouldBeEquals - 2019.07.19 at 12h 54m 54s.xml">
-      <configuration name="MealTest.referencesToTheSameObjectShouldBeEquals" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MealTest_twoMeatShouldBeEqualsWhenPriceAndNameAerTheSame - 2019.07.19 at 13h 02m 08s.xml">
-      <configuration name="MealTest.twoMeatShouldBeEqualsWhenPriceAndNameAerTheSame" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MealTest_twoMeatShouldBeEqualsWhenPriceAndNameAerTheSame - 2019.07.19 at 13h 05m 28s.xml">
-      <configuration name="MealTest.twoMeatShouldBeEqualsWhenPriceAndNameAerTheSame" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AccountTest_newlyCreatedAccountShouldNotHaveDefaultDeliveryAddressSet - 2019.07.23 at 12h 47m 52s.xml">
-      <configuration name="AccountTest.newlyCreatedAccountShouldNotHaveDefaultDeliveryAddressSet" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AccountTest_newlyCreatedAccountShouldNotHaveDefaultDeliveryAddressSet - 2019.07.23 at 12h 48m 37s.xml">
-      <configuration name="AccountTest.newlyCreatedAccountShouldNotHaveDefaultDeliveryAddressSet" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="AccountTest_defaultDeliveryAddressShouldNotBeNullAfterBeingSet - 2019.07.23 at 12h 54m 25s.xml">
       <configuration name="AccountTest.defaultDeliveryAddressShouldNotBeNullAfterBeingSet" configurationId="JUnit" />
     </history-entry>
@@ -423,9 +430,24 @@
     <history-entry file="AccountTest_defaultDeliveryAddressShouldNotBeNullAfterBeingSet - 2019.07.23 at 12h 59m 11s.xml">
       <configuration name="AccountTest.defaultDeliveryAddressShouldNotBeNullAfterBeingSet" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="MealTest_shouldReturnDiscountedPrice - 2019.07.24 at 10h 31m 28s.xml">
+      <configuration name="MealTest.shouldReturnDiscountedPrice" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MealTest_referencesToTheSameObjectShouldBeNotEquals - 2019.07.24 at 10h 35m 58s.xml">
+      <configuration name="MealTest.referencesToTheSameObjectShouldBeNotEquals" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="OrderTest_testAssertArrayEquals - 2019.07.24 at 12h 44m 11s.xml">
+      <configuration name="OrderTest.testAssertArrayEquals" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="OrderTest_addinMealtoOrderShouldincreaseOrderSize - 2019.07.24 at 12h 58m 31s.xml">
+      <configuration name="OrderTest.addinMealtoOrderShouldincreaseOrderSize" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="OrderTest_addinMealtoOrderShouldincreaseOrderSize - 2019.07.24 at 12h 59m 47s.xml">
+      <configuration name="OrderTest.addinMealtoOrderShouldincreaseOrderSize" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14850000" />
+    <option name="totallyTimeSpent" value="18657000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -440,7 +462,7 @@
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4978903" visible="true" weight="0.2671141" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4978903" visible="true" weight="0.2671141" />
       <window_info id="Structure" order="1" sideWeight="0.5021097" side_tool="true" weight="0.24966443" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -450,7 +472,7 @@
       <window_info id="Learn" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3286119" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3286119" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39943343" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -520,7 +542,8 @@
     <MESSAGE value="first commit" />
     <MESSAGE value="dependencies" />
     <MESSAGE value="Tests 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="Tests 1" />
+    <MESSAGE value="Tests assertTo plus dependencies" />
+    <option name="LAST_COMMIT_MESSAGE" value="Tests assertTo plus dependencies" />
   </component>
   <component name="editorHistoryManager">
     <entry file="jar://$MAVEN_REPOSITORY$/org/junit/jupiter/junit-jupiter-api/5.0.0/junit-jupiter-api-5.0.0.jar!/org/junit/jupiter/api/Assertions.class">
@@ -534,17 +557,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/junit/jupiter/junit-jupiter-api/5.0.0/junit-jupiter-api-5.0.0-sources.jar!/org/junit/jupiter/api/Assertions.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="479" column="23" selection-start-line="479" selection-start-column="23" selection-end-line="479" selection-end-column="23" />
-          <folding>
-            <element signature="e#17819#17820#0" expanded="true" />
-            <element signature="e#17869#17870#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/TESTY jednostkowe JUnit Mockito TDD1.1.iml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -552,24 +564,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="50" selection-start-line="7" selection-start-column="50" selection-end-line="7" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/pl/devfoundry/testing/MealTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="14" column="56" selection-start-line="14" selection-start-column="56" selection-end-line="14" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/devfoundry/testing/Meal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="233">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-          <folding>
-            <element signature="e#766#767#0" expanded="true" />
-            <element signature="e#814#815#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -592,10 +586,61 @@
       </provider>
       <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
     </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/junit/jupiter/junit-jupiter-api/5.0.0/junit-jupiter-api-5.0.0-sources.jar!/org/junit/jupiter/api/Assertions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="710">
+          <caret line="479" column="23" selection-start-line="479" selection-start-column="23" selection-end-line="479" selection-end-column="23" />
+          <folding>
+            <element signature="e#17819#17820#0" expanded="true" />
+            <element signature="e#17869#17870#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/devfoundry/testing/Meal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <element signature="e#766#767#0" expanded="true" />
+            <element signature="e#814#815#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/pl/devfoundry/testing/AccountTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="22" column="46" selection-start-line="22" selection-start-column="46" selection-end-line="22" selection-end-column="46" />
+        <state relative-caret-position="-221">
+          <caret line="23" column="33" selection-start-line="23" selection-start-column="33" selection-end-line="23" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/pl/devfoundry/testing/MealTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="44" column="52" lean-forward="true" selection-start-line="44" selection-start-column="52" selection-end-line="44" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/devfoundry/testing/Order.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#286#287#0" expanded="true" />
+            <element signature="e#314#315#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/pl/devfoundry/testing/OrderTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="392">
+          <caret line="89" column="35" selection-start-line="89" selection-start-column="35" selection-end-line="89" selection-end-column="35" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
