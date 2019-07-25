@@ -2,14 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ad3cf8a6-ef05-4543-8dac-8372e03c45a9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/orderBeckup.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/devfoundry/testing/OrderBeckup.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pl/devfoundry/testing/OrderBeckupTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/devfoundry/testing/Cart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pl/devfoundry/testing/CartTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/devfoundry/testing/Meal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/devfoundry/testing/Meal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/devfoundry/testing/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/devfoundry/testing/Order.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pl/devfoundry/testing/MealTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pl/devfoundry/testing/MealTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pl/devfoundry/testing/OrderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pl/devfoundry/testing/OrderTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -28,28 +23,6 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/pl/devfoundry/testing/Account.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="15" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
-              <folding>
-                <element signature="e#130#131#0" expanded="true" />
-                <element signature="e#174#175#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/pl/devfoundry/testing/Address.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="50" selection-start-line="7" selection-start-column="50" selection-end-line="7" selection-end-column="50" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/pl/devfoundry/testing/Meal.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="222">
@@ -62,16 +35,37 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/pl/devfoundry/testing/OrderBeckupTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="22" column="40" selection-start-line="22" selection-start-column="40" selection-end-line="22" selection-end-column="40" />
+            <state relative-caret-position="340">
+              <caret line="20" column="14" lean-forward="true" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#543#544#0" expanded="true" />
-                <element signature="e#569#570#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pl/devfoundry/testing/Cart.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#232#233#0" expanded="true" />
+                <element signature="e#291#292#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/pl/devfoundry/testing/CartTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="18" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -80,7 +74,7 @@
         <entry file="file://$PROJECT_DIR$/orderBeckup.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret column="42" lean-forward="true" selection-start-column="42" selection-end-column="42" />
+              <caret column="39" selection-start-column="39" selection-end-column="39" />
             </state>
           </provider>
         </entry>
@@ -149,8 +143,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JUnit5 Test Class" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -173,6 +167,8 @@
         <option value="$PROJECT_DIR$/src/main/java/pl/devfoundry/testing/Order.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/devfoundry/testing/Meal.java" />
         <option value="$PROJECT_DIR$/src/test/java/pl/devfoundry/testing/OrderBeckupTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/devfoundry/testing/Cart.java" />
+        <option value="$PROJECT_DIR$/src/test/java/pl/devfoundry/testing/CartTest.java" />
       </list>
     </option>
   </component>
@@ -278,6 +274,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="pl.devfoundry.testing" />
       <recent name="testing" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
@@ -299,8 +296,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.OrderBeckupTest">
-    <configuration name="MealTest.exceptionShouldBeThrownWhenDiscountIsHigherThanThePrice" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.CartTest.simulateLargeOrder">
+    <configuration name="CartTest.simulateLargeOrder" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TESTY jednostkowe JUnit Mockito TDD1.1" />
       <extension name="coverage">
         <pattern>
@@ -309,8 +306,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="pl.devfoundry.testing" />
-      <option name="MAIN_CLASS_NAME" value="pl.devfoundry.testing.MealTest" />
-      <option name="METHOD_NAME" value="exceptionShouldBeThrownWhenDiscountIsHigherThanThePrice" />
+      <option name="MAIN_CLASS_NAME" value="pl.devfoundry.testing.CartTest" />
+      <option name="METHOD_NAME" value="simulateLargeOrder" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -380,11 +377,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CartTest.simulateLargeOrder" />
         <item itemvalue="JUnit.OrderBeckupTest" />
         <item itemvalue="JUnit.OrderBeckupTest.backOrderWithOneMeal" />
         <item itemvalue="JUnit.OrderTest.testIfTwoMealListAreTheSame" />
         <item itemvalue="JUnit.OrderTest" />
-        <item itemvalue="JUnit.MealTest.exceptionShouldBeThrownWhenDiscountIsHigherThanThePrice" />
       </list>
     </recent_temporary>
   </component>
@@ -404,7 +401,7 @@
       <workItem from="1563532081562" duration="380000" />
       <workItem from="1563532497571" duration="3736000" />
       <workItem from="1563876126888" duration="7220000" />
-      <workItem from="1563966937422" duration="4210000" />
+      <workItem from="1563966937422" duration="5239000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1563284909751</created>
@@ -455,22 +452,17 @@
       <option name="project" value="LOCAL" />
       <updated>1563966907329</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Exceptions test">
+      <created>1564051679044</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1564051679044</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="MealTest_exceptionShouldBeThrownWhenDiscountIsHigherThanThePrice - 2019.07.25 at 11h 40m 26s.xml">
-      <configuration name="MealTest.exceptionShouldBeThrownWhenDiscountIsHigherThanThePrice" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MealTest_exceptionShouldBeThrownWhenDiscountIsHigherThanThePrice - 2019.07.25 at 11h 40m 37s.xml">
-      <configuration name="MealTest.exceptionShouldBeThrownWhenDiscountIsHigherThanThePrice" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MealTest_exceptionShouldBeThrownWhenDiscountIsHigherThanThePrice - 2019.07.25 at 11h 40m 49s.xml">
-      <configuration name="MealTest.exceptionShouldBeThrownWhenDiscountIsHigherThanThePrice" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="OrderTest - 2019.07.25 at 11h 54m 29s.xml">
-      <configuration name="OrderTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="OrderTest_testIfTwoMealListAreTheSame - 2019.07.25 at 11h 55m 13s.xml">
       <configuration name="OrderTest.testIfTwoMealListAreTheSame" configurationId="JUnit" />
     </history-entry>
@@ -489,9 +481,21 @@
     <history-entry file="OrderBeckupTest_backOrderWithOneMeal - 2019.07.25 at 12h 40m 31s.xml">
       <configuration name="OrderBeckupTest.backOrderWithOneMeal" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="OrderBeckupTest - 2019.07.25 at 12h 44m 27s.xml">
+      <configuration name="OrderBeckupTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="OrderBeckupTest - 2019.07.25 at 12h 44m 58s.xml">
+      <configuration name="OrderBeckupTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CartTest_simulateLargeOrder - 2019.07.25 at 12h 58m 14s.xml">
+      <configuration name="CartTest.simulateLargeOrder" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CartTest_simulateLargeOrder - 2019.07.25 at 12h 59m 15s.xml">
+      <configuration name="CartTest.simulateLargeOrder" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23276000" />
+    <option name="totallyTimeSpent" value="24305000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -506,7 +510,7 @@
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4978903" visible="true" weight="0.27114093" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4978903" visible="true" weight="0.27114093" />
       <window_info id="Structure" order="1" sideWeight="0.5021097" side_tool="true" weight="0.24966443" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -516,7 +520,7 @@
       <window_info id="Learn" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3286119" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3286119" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39943343" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -528,7 +532,7 @@
       <window_info anchor="bottom" id="Database Changes" order="11" />
       <window_info anchor="bottom" id="Version Control" order="12" weight="0.3286119" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" visible="true" weight="0.24966443" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Maven" order="3" />
       <window_info anchor="right" id="Palette" order="4" />
@@ -589,7 +593,12 @@
     <MESSAGE value="Tests assertTo plus dependencies" />
     <MESSAGE value="Tests yo Collectiions&#10;pl: testy do testowania kolekcji" />
     <MESSAGE value="Tests to Collectiions&#10;pl: testy do testowania kolekcji" />
-    <option name="LAST_COMMIT_MESSAGE" value="Tests to Collectiions&#10;pl: testy do testowania kolekcji" />
+    <MESSAGE value="Exceptions test" />
+    <option name="LAST_COMMIT_MESSAGE" value="Exceptions test" />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
     <entry file="jar://$MAVEN_REPOSITORY$/org/junit/jupiter/junit-jupiter-api/5.0.0/junit-jupiter-api-5.0.0.jar!/org/junit/jupiter/api/Assertions.class">
@@ -706,19 +715,36 @@
     <entry file="file://$PROJECT_DIR$/orderBeckup.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="42" lean-forward="true" selection-start-column="42" selection-end-column="42" />
+          <caret column="39" selection-start-column="39" selection-end-column="39" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/pl/devfoundry/testing/OrderBeckupTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="40" selection-start-line="22" selection-start-column="40" selection-end-line="22" selection-end-column="40" />
+        <state relative-caret-position="340">
+          <caret line="20" column="14" lean-forward="true" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#543#544#0" expanded="true" />
-            <element signature="e#569#570#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/devfoundry/testing/Cart.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#232#233#0" expanded="true" />
+            <element signature="e#291#292#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/pl/devfoundry/testing/CartTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="18" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
         </state>
       </provider>
     </entry>
