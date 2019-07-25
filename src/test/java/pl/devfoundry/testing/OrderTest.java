@@ -1,5 +1,7 @@
 package pl.devfoundry.testing;
 
+import org.junit.jupiter.api.AfterEach;
+import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 import java.lang.reflect.Array;
@@ -9,9 +11,21 @@ import java.util.List;
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.Matchers.*;
 import static org.junit.jupiter.api.Assertions.assertArrayEquals;
-import static org.junit.jupiter.api.Assertions.assertTrue;
 
 public class OrderTest {
+
+    private Order order;
+
+    @BeforeEach
+    void initializerOrder(){
+        System.out.println("Inside @Before each method");
+        order = new Order();
+    }
+    @AfterEach
+    void cleanUp(){
+        System.out.println("Inside after each method");
+        order.cancel();
+    }
 
     @Test
     void testAssertArrayEquals() {
@@ -25,7 +39,6 @@ public class OrderTest {
     @Test
     void mealListShouldBeemptyAfterCreationOrder() {
         //given
-        Order order = new Order();
         //then
         assertThat(order.getMeals(), empty());
         assertThat(order.getMeals().size(), equalTo(0));
@@ -39,7 +52,6 @@ public class OrderTest {
         //given
         Meal meal = new Meal(15, "Burger");
         Meal meal2 = new Meal(5, "Sandwich");
-        Order order = new Order();
 
         //when
         order.addMealToOrder(meal);
@@ -56,7 +68,6 @@ public class OrderTest {
     void removingMealFromOrderShouldDecraseOrderSize() {
         //given
         Meal meal = new Meal(15, "Burger");
-        Order order = new Order();
 
         //when
         order.addMealToOrder(meal);
@@ -72,7 +83,6 @@ public class OrderTest {
         //given
         Meal meal1 = new Meal(15, "Burger");
         Meal meal2 = new Meal(5, "Sandwich");
-        Order order = new Order();
 
         //when
         order.addMealToOrder(meal1);
@@ -93,7 +103,7 @@ public class OrderTest {
         List<Meal> meals2 = Arrays.asList(meal1, meal2);
 
         //then
-        assertThat(meal1, is(meal2));
+        assertThat(meals1, is(meals2));
     }
-    zzzzzz
+
 }
