@@ -2,12 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ad3cf8a6-ef05-4543-8dac-8372e03c45a9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/devfoundry/testing/Cart.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pl/devfoundry/testing/CartTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/devfoundry/testing/Cart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/devfoundry/testing/Cart.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/devfoundry/testing/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/devfoundry/testing/Order.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pl/devfoundry/testing/CartTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pl/devfoundry/testing/CartTest.java" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/out/" />
-    <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,126 +20,6 @@
   <component name="FavoritesManager">
     <favorites_list name="unittestingjava" />
   </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/pl/devfoundry/testing/Meal.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="222">
-              <caret line="45" column="18" selection-start-line="45" selection-start-column="18" selection-end-line="45" selection-end-column="18" />
-              <folding>
-                <element signature="e#766#767#0" expanded="true" />
-                <element signature="e#814#815#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/pl/devfoundry/testing/OrderBeckupTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="20" column="14" lean-forward="true" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/pl/devfoundry/testing/Cart.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#232#233#0" expanded="true" />
-                <element signature="e#291#292#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/pl/devfoundry/testing/CartTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="18" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/orderBeckup.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="39" selection-start-column="39" selection-end-column="39" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/pl/devfoundry/testing/AccountTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="23" column="33" selection-start-line="23" selection-start-column="33" selection-end-line="23" selection-end-column="33" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/pl/devfoundry/testing/MealTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="256">
-              <caret line="65" column="84" selection-start-line="65" selection-start-column="84" selection-end-line="65" selection-end-column="84" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/pl/devfoundry/testing/Order.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="239">
-              <caret line="27" column="18" selection-start-line="27" selection-start-column="18" selection-end-line="27" selection-end-column="18" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#444#445#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/pl/devfoundry/testing/OrderTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="13" selection-start-line="13" selection-end-line="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/pl/devfoundry/testing/OrderBeckup.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="21" column="24" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
-              <folding>
-                <element signature="e#141#142#0" expanded="true" />
-                <element signature="e#170#171#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
-  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -150,27 +30,6 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/src/main/java/testing/Account.java" />
-        <option value="$PROJECT_DIR$/src/main/java/testing/Meal.java" />
-        <option value="$PROJECT_DIR$/src/test/java/testing/MealTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/pl/devfoundry/testing/Account.java" />
-        <option value="$PROJECT_DIR$/src/main/java/pl/devfoundry/testing/Address.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/test/java/pl/devfoundry/testing/AccountTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/pl/devfoundry/testing/MealTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/pl/devfoundry/testing/OrderTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/pl/devfoundry/testing/OrderBeckup.java" />
-        <option value="$PROJECT_DIR$/src/main/java/pl/devfoundry/testing/Order.java" />
-        <option value="$PROJECT_DIR$/src/main/java/pl/devfoundry/testing/Meal.java" />
-        <option value="$PROJECT_DIR$/src/test/java/pl/devfoundry/testing/OrderBeckupTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/pl/devfoundry/testing/Cart.java" />
-        <option value="$PROJECT_DIR$/src/test/java/pl/devfoundry/testing/CartTest.java" />
-      </list>
-    </option>
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -185,92 +44,21 @@
     <option name="width" value="1940" />
     <option name="height" value="1105" />
   </component>
+  <component name="ProjectId" id="1Omvf6bQtILaGYNy4JcpGLhx71J" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <hideEmptyPackages ProjectPane="true" />
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="unittestingjava" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TESTY jednostkowe JUnit Mockito TDD1.1" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="unittestingjava" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TESTY jednostkowe JUnit Mockito TDD1.1" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="unittestingjava" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TESTY jednostkowe JUnit Mockito TDD1.1" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="unittestingjava" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TESTY jednostkowe JUnit Mockito TDD1.1" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="unittestingjava" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TESTY jednostkowe JUnit Mockito TDD1.1" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="testing" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="unittestingjava" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TESTY jednostkowe JUnit Mockito TDD1.1" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="unittestingjava" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TESTY jednostkowe JUnit Mockito TDD1.1" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="unittestingjava" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TESTY jednostkowe JUnit Mockito TDD1.1" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="testing" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="unittestingjava" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
-    </panes>
-  </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../SPRING/BookCatalog/.idea/pom.xml" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../PROJEKTY od wykładowców/Adam Balcerek SPRING/BookCatalogFull" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -296,7 +84,38 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.CartTest.simulateLargeOrder">
+  <component name="RunManager" selected="JUnit.CartTest.cartShouldNotBeEmptyAfterAddingOrderToCart">
+    <configuration name="CartTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TESTY jednostkowe JUnit Mockito TDD1.1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pl.devfoundry.testing.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="pl.devfoundry.testing" />
+      <option name="MAIN_CLASS_NAME" value="pl.devfoundry.testing.CartTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CartTest.cartShouldNotBeEmptyAfterAddingOrderToCart" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TESTY jednostkowe JUnit Mockito TDD1.1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pl.devfoundry.testing.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="pl.devfoundry.testing" />
+      <option name="MAIN_CLASS_NAME" value="pl.devfoundry.testing.CartTest" />
+      <option name="METHOD_NAME" value="cartShouldNotBeEmptyAfterAddingOrderToCart" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CartTest.simulateLargeOrder" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TESTY jednostkowe JUnit Mockito TDD1.1" />
       <extension name="coverage">
@@ -344,44 +163,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OrderTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="TESTY jednostkowe JUnit Mockito TDD1.1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="pl.devfoundry.testing.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="pl.devfoundry.testing" />
-      <option name="MAIN_CLASS_NAME" value="pl.devfoundry.testing.OrderTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="OrderTest.testIfTwoMealListAreTheSame" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="TESTY jednostkowe JUnit Mockito TDD1.1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="pl.devfoundry.testing.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="pl.devfoundry.testing" />
-      <option name="MAIN_CLASS_NAME" value="pl.devfoundry.testing.OrderTest" />
-      <option name="METHOD_NAME" value="testIfTwoMealListAreTheSame" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CartTest.cartShouldNotBeEmptyAfterAddingOrderToCart" />
+        <item itemvalue="JUnit.CartTest" />
         <item itemvalue="JUnit.CartTest.simulateLargeOrder" />
         <item itemvalue="JUnit.OrderBeckupTest" />
         <item itemvalue="JUnit.OrderBeckupTest.backOrderWithOneMeal" />
-        <item itemvalue="JUnit.OrderTest.testIfTwoMealListAreTheSame" />
-        <item itemvalue="JUnit.OrderTest" />
       </list>
     </recent_temporary>
   </component>
@@ -401,7 +189,9 @@
       <workItem from="1563532081562" duration="380000" />
       <workItem from="1563532497571" duration="3736000" />
       <workItem from="1563876126888" duration="7220000" />
-      <workItem from="1563966937422" duration="5239000" />
+      <workItem from="1563966937422" duration="8190000" />
+      <workItem from="1564595688909" duration="115000" />
+      <workItem from="1564595887832" duration="1670000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1563284909751</created>
@@ -459,43 +249,22 @@
       <option name="project" value="LOCAL" />
       <updated>1564051679044</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Timeout &#10;assertTimeout">
+      <created>1564052488056</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1564052488056</updated>
+    </task>
+    <task id="LOCAL-00010" summary="@DisplayName &#10;@Disable">
+      <created>1564052790412</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1564052790412</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
-  </component>
-  <component name="TestHistory">
-    <history-entry file="OrderTest_testIfTwoMealListAreTheSame - 2019.07.25 at 11h 55m 13s.xml">
-      <configuration name="OrderTest.testIfTwoMealListAreTheSame" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="OrderTest_testIfTwoMealListAreTheSame - 2019.07.25 at 11h 59m 10s.xml">
-      <configuration name="OrderTest.testIfTwoMealListAreTheSame" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="OrderTest_testIfTwoMealListAreTheSame - 2019.07.25 at 12h 04m 04s.xml">
-      <configuration name="OrderTest.testIfTwoMealListAreTheSame" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="OrderBeckupTest - 2019.07.25 at 12h 38m 45s.xml">
-      <configuration name="OrderBeckupTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="OrderBeckupTest_backOrderWithOneMeal - 2019.07.25 at 12h 39m 59s.xml">
-      <configuration name="OrderBeckupTest.backOrderWithOneMeal" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="OrderBeckupTest_backOrderWithOneMeal - 2019.07.25 at 12h 40m 31s.xml">
-      <configuration name="OrderBeckupTest.backOrderWithOneMeal" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="OrderBeckupTest - 2019.07.25 at 12h 44m 27s.xml">
-      <configuration name="OrderBeckupTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="OrderBeckupTest - 2019.07.25 at 12h 44m 58s.xml">
-      <configuration name="OrderBeckupTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CartTest_simulateLargeOrder - 2019.07.25 at 12h 58m 14s.xml">
-      <configuration name="CartTest.simulateLargeOrder" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CartTest_simulateLargeOrder - 2019.07.25 at 12h 59m 15s.xml">
-      <configuration name="CartTest.simulateLargeOrder" configurationId="JUnit" />
-    </history-entry>
-  </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24305000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -506,43 +275,6 @@
       <is-autoscroll-to-source value="true" />
     </todo-panel>
   </component>
-  <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
-    <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4978903" visible="true" weight="0.27114093" />
-      <window_info id="Structure" order="1" sideWeight="0.5021097" side_tool="true" weight="0.24966443" />
-      <window_info id="Designer" order="2" />
-      <window_info id="Image Layers" order="3" />
-      <window_info id="Capture Tool" order="4" />
-      <window_info id="UI Designer" order="5" />
-      <window_info id="Favorites" order="6" sideWeight="0.5021097" side_tool="true" weight="0.24966443" />
-      <window_info id="Learn" order="7" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3286119" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39943343" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.3286119" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.34844193" />
-      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="10" />
-      <window_info anchor="bottom" id="Database Changes" order="11" />
-      <window_info anchor="bottom" id="Version Control" order="12" weight="0.3286119" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" visible="true" weight="0.24966443" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="3" />
-      <window_info anchor="right" id="Palette" order="4" />
-      <window_info anchor="right" content_ui="combo" id="Codota" order="5" weight="0.3295302" />
-      <window_info anchor="right" id="Capture Analysis" order="6" />
-      <window_info anchor="right" id="Database" order="7" />
-      <window_info anchor="right" id="Palette&#9;" order="8" />
-      <window_info anchor="right" id="Theme Preview" order="9" />
-    </layout>
-  </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
@@ -552,20 +284,7 @@
         <entry key="MAIN">
           <value>
             <State>
-              <option name="RECENTLY_FILTERED_USER_GROUPS">
-                <collection />
-              </option>
-              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
-                <collection />
-              </option>
-              <option name="COLUMN_ORDER">
-                <list>
-                  <option value="0" />
-                  <option value="1" />
-                  <option value="2" />
-                  <option value="3" />
-                </list>
-              </option>
+              <option name="COLUMN_ORDER" />
             </State>
           </value>
         </entry>
@@ -594,160 +313,13 @@
     <MESSAGE value="Tests yo Collectiions&#10;pl: testy do testowania kolekcji" />
     <MESSAGE value="Tests to Collectiions&#10;pl: testy do testowania kolekcji" />
     <MESSAGE value="Exceptions test" />
-    <option name="LAST_COMMIT_MESSAGE" value="Exceptions test" />
+    <MESSAGE value="Timeout &#10;assertTimeout" />
+    <MESSAGE value="@DisplayName &#10;@Disable" />
+    <option name="LAST_COMMIT_MESSAGE" value="@DisplayName &#10;@Disable" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/junit/jupiter/junit-jupiter-api/5.0.0/junit-jupiter-api-5.0.0.jar!/org/junit/jupiter/api/Assertions.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="149">
-          <caret line="226" column="23" selection-start-line="226" selection-start-column="23" selection-end-line="226" selection-end-column="23" />
-          <folding>
-            <element signature="e#7907#7908#0" expanded="true" />
-            <element signature="e#7966#7967#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TESTY jednostkowe JUnit Mockito TDD1.1.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/junit/jupiter/junit-jupiter-api/5.0.0/junit-jupiter-api-5.0.0-sources.jar!/org/junit/jupiter/api/Assertions.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="710">
-          <caret line="479" column="23" selection-start-line="479" selection-start-column="23" selection-end-line="479" selection-end-column="23" />
-          <folding>
-            <element signature="e#17819#17820#0" expanded="true" />
-            <element signature="e#17869#17870#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="901">
-          <caret line="53" selection-start-line="53" selection-end-line="53" />
-        </state>
-      </provider>
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/devfoundry/testing/Account.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="15" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
-          <folding>
-            <element signature="e#130#131#0" expanded="true" />
-            <element signature="e#174#175#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/devfoundry/testing/Address.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="50" selection-start-line="7" selection-start-column="50" selection-end-line="7" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/pl/devfoundry/testing/AccountTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="33" selection-start-line="23" selection-start-column="33" selection-end-line="23" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/pl/devfoundry/testing/MealTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="65" column="84" selection-start-line="65" selection-start-column="84" selection-end-line="65" selection-end-column="84" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/pl/devfoundry/testing/OrderTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/devfoundry/testing/OrderBeckup.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="21" column="24" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
-          <folding>
-            <element signature="e#141#142#0" expanded="true" />
-            <element signature="e#170#171#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/devfoundry/testing/Order.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="239">
-          <caret line="27" column="18" selection-start-line="27" selection-start-column="18" selection-end-line="27" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#444#445#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/devfoundry/testing/Meal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="222">
-          <caret line="45" column="18" selection-start-line="45" selection-start-column="18" selection-end-line="45" selection-end-column="18" />
-          <folding>
-            <element signature="e#766#767#0" expanded="true" />
-            <element signature="e#814#815#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/orderBeckup.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="39" selection-start-column="39" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/pl/devfoundry/testing/OrderBeckupTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="14" lean-forward="true" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/devfoundry/testing/Cart.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#232#233#0" expanded="true" />
-            <element signature="e#291#292#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/pl/devfoundry/testing/CartTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="18" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
   </component>
   <component name="masterDetails">
     <states>
