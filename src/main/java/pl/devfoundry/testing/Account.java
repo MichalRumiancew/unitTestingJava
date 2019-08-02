@@ -7,11 +7,21 @@ public class Account {
         return defaultDeliveryAddres;
     }
 
+    public Account(Address defaultDeliveryAddres) {
+        this.defaultDeliveryAddres = defaultDeliveryAddres;
+        if (defaultDeliveryAddres != null) {
+            activate();
+        } else {
+            this.active = false;
+        }
+
+    }
+
     public void setDefaultDeliveryAddres(Address defaultDeliveryAddres) {
         this.defaultDeliveryAddres = defaultDeliveryAddres;
     }
 
-    private  Address defaultDeliveryAddres;
+    private Address defaultDeliveryAddres;
 
     public Account() {
         this.active = false;
@@ -21,6 +31,7 @@ public class Account {
     public void activate() {
         this.active = true;
     }
+
     public boolean isActive() {
         return this.active;
     }

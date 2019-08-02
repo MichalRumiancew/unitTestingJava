@@ -1,11 +1,12 @@
 package pl.devfoundry.testing;
 
 import org.junit.jupiter.api.Test;
+import org.junit.jupiter.params.ParameterizedTest;
+import org.junit.jupiter.params.provider.ValueSource;
 
 import static org.hamcrest.CoreMatchers.equalTo;
 import static org.hamcrest.MatcherAssert.assertThat;
-import static org.hamcrest.Matchers.not;
-import static org.hamcrest.Matchers.sameInstance;
+import static org.hamcrest.Matchers.*;
 import static org.junit.jupiter.api.Assertions.*;
 
 class MealTest {
@@ -47,23 +48,32 @@ class MealTest {
     }
 
     @Test
-    void twoMeatShouldBeEqualsWhenPriceAndNameAerTheSame(){
+    void twoMeatShouldBeEqualsWhenPriceAndNameAerTheSame() {
         //given
         Meal meal1 = new Meal(10, "Piiza");
         Meal meal2 = new Meal(10, "Piiza");
         //then
-        assertEquals(meal1,meal2,"Checking if two meals are equal");
+        assertEquals(meal1, meal2, "Checking if two meals are equal");
 
     }
 
     @Test
-    void exceptionShouldBeThrownWhenDiscountIsHigherThanThePrice (){
+    void exceptionShouldBeThrownWhenDiscountIsHigherThanThePrice() {
 
         //given
         Meal meal = new Meal(8, "Soup");
         //when
         //then
-        assertThrows(IllegalArgumentException.class, ()-> meal.getDiscountedPrice(40));
+        assertThrows(IllegalArgumentException.class, () -> meal.getDiscountedPrice(40));
 
     }
+
+    @ParameterizedTest
+    @ValueSource(ints = {5, 10, 15, 18})
+    void mealPricesShouldLowerThan20(int prices) {
+        assertThat(prices,lessThan(20));
+
+    }
+
+
 }

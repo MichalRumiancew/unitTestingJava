@@ -1,12 +1,13 @@
 package pl.devfoundry.testing;
 
-
+import org.junit.jupiter.api.RepeatedTest;
 import org.junit.jupiter.api.Test;
 
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.Matchers.is;
 import static org.hamcrest.core.IsEqual.equalTo;
 import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.jupiter.api.Assumptions.assumingThat;
 
 
 //TDD given->then->then
@@ -22,7 +23,6 @@ class AccountTest {
         assertFalse(newAccount.isActive());
         assertThat(newAccount.isActive(), equalTo(false));
         assertThat(newAccount.isActive(), is(false));
-
     }
 
     @Test
@@ -54,7 +54,6 @@ class AccountTest {
         //then
         assertNull(address);
 
-
     }
 
     @Test
@@ -72,5 +71,20 @@ class AccountTest {
 
         //assertThat()
 
+    }
+
+    @RepeatedTest(5)
+    void newAccountWithNotNullAddressShouldBeActive(){
+
+        //given
+        Address address = new Address("Puławska", "46/6");
+
+        //when
+        Account account = new Account(address);
+
+        //then
+        assumingThat(address !=null, () ->{
+            assertTrue(account.isActive());
+        });
     }
 }
