@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="TESTY jednostkowe JUnit Mockito TDD1.1" />
+        <module name="unit-testing-java" />
       </profile>
     </annotationProcessing>
   </component>
