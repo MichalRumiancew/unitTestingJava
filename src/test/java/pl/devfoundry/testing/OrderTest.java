@@ -3,6 +3,7 @@ package pl.devfoundry.testing;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.extension.ExtendWith;
 
 import java.lang.reflect.Array;
 import java.util.Arrays;
@@ -12,18 +13,19 @@ import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.Matchers.*;
 import static org.junit.jupiter.api.Assertions.assertArrayEquals;
 
+@ExtendWith(BeforeAfterExtension.class)
 public class OrderTest {
 
     private Order order;
 
     @BeforeEach
     void initializerOrder(){
-        System.out.println("Inside @Before each method");
+        System.out.println("Before each");
         order = new Order();
     }
     @AfterEach
     void cleanUp(){
-        System.out.println("Inside after each method");
+        System.out.println("After each");
         order.cancel();
     }
 

@@ -9,7 +9,6 @@ import static org.hamcrest.core.IsEqual.equalTo;
 import static org.junit.jupiter.api.Assertions.*;
 import static org.junit.jupiter.api.Assumptions.assumingThat;
 
-
 //TDD given->then->then
 class AccountTest {
 

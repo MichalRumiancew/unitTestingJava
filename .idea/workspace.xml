@@ -2,13 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ad3cf8a6-ef05-4543-8dac-8372e03c45a9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/addresses.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pl/devfoundry/testing/AddressTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/devfoundry/testing/BeforeAfterExtension.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/devfoundry/testing/IAExceptionIgnoreExtension.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pl/devfoundry/testing/AccountTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pl/devfoundry/testing/AccountTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/pl/devfoundry/testing/MealTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pl/devfoundry/testing/MealTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pl/devfoundry/testing/OrderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pl/devfoundry/testing/OrderTest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -81,7 +80,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.AddressTest.addressesFromFileShouldByEmptyAndHaveProperNames">
+  <component name="RunManager" selected="JUnit.MealTest.mealPricesShouldLowerThan10">
     <configuration name="AddressTest.addressesFromFileShouldByEmptyAndHaveProperNames" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="unit-testing-java" />
       <extension name="coverage">
@@ -114,22 +113,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MealTest.burgersShouldHaveCorrectNameAndPrice" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="unit-testing-java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="pl.devfoundry.testing.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="pl.devfoundry.testing" />
-      <option name="MAIN_CLASS_NAME" value="pl.devfoundry.testing.MealTest" />
-      <option name="METHOD_NAME" value="burgersShouldHaveCorrectNameAndPrice(java.lang.String,int)" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="MealTest.cakeNamesShouldEndWithCake" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="unit-testing-java" />
       <extension name="coverage">
@@ -146,7 +129,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OrderStatusTest.allOrderStatusShouldBeShorterThat15Chars (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MealTest.mealPricesShouldLowerThan10" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="unit-testing-java" />
       <extension name="coverage">
         <pattern>
@@ -155,20 +138,35 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="pl.devfoundry.testing" />
-      <option name="MAIN_CLASS_NAME" value="pl.devfoundry.testing.OrderStatusTest" />
-      <option name="METHOD_NAME" value="allOrderStatusShouldBeShorterThat15Chars(pl.devfoundry.testing.OrderStatus)" />
+      <option name="MAIN_CLASS_NAME" value="pl.devfoundry.testing.MealTest" />
+      <option name="METHOD_NAME" value="mealPricesShouldLowerThan10(int)" />
       <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="unit-testing-java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pl.devfoundry.testing.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="pl.devfoundry.testing" />
+      <option name="MAIN_CLASS_NAME" value="pl.devfoundry.testing.OrderTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MealTest.mealPricesShouldLowerThan10" />
+        <item itemvalue="JUnit.OrderTest" />
         <item itemvalue="JUnit.AddressTest.addressesFromFileShouldByEmptyAndHaveProperNames" />
         <item itemvalue="JUnit.AddressTest.givenAddressesShouldByEmptyAndHaveProperNames" />
         <item itemvalue="JUnit.MealTest.cakeNamesShouldEndWithCake" />
-        <item itemvalue="JUnit.MealTest.burgersShouldHaveCorrectNameAndPrice" />
-        <item itemvalue="JUnit.OrderStatusTest.allOrderStatusShouldBeShorterThat15Chars (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -192,7 +190,8 @@
       <workItem from="1564595688909" duration="115000" />
       <workItem from="1564595887832" duration="3814000" />
       <workItem from="1564733686398" duration="4669000" />
-      <workItem from="1569146447212" duration="4600000" />
+      <workItem from="1569146447212" duration="6143000" />
+      <workItem from="1569680244527" duration="2766000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1563284909751</created>
@@ -278,7 +277,14 @@
       <option name="project" value="LOCAL" />
       <updated>1564737360785</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="ok">
+      <created>1569497701687</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1569497701687</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TodoView">
@@ -332,7 +338,8 @@
     <MESSAGE value="@DisplayName &#10;@Disable" />
     <MESSAGE value="CartTest" />
     <MESSAGE value="Testy parametryzowane, nie zajduje testu? Poprawić" />
-    <option name="LAST_COMMIT_MESSAGE" value="Testy parametryzowane, nie zajduje testu? Poprawić" />
+    <MESSAGE value="ok" />
+    <option name="LAST_COMMIT_MESSAGE" value="ok" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
