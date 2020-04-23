@@ -65,7 +65,7 @@ class MealTest {
 
 
     @Test
-    void twoMealShouldBeEqualsWhenPriceAndNameAerTheSame() {
+    void twoMealsShouldBeEqualWhenPriceAndNameAreTheSame() {
         //given
         Meal meal1 = new Meal(10, "Piiza");
         Meal meal2 = new Meal(10, "Piiza");
